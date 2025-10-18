@@ -10,7 +10,7 @@ public class Main {
 		int n = sc.nextInt();
 		sc.nextLine();
 
-		Bibliotheque biblio = new Bibliotheque(n);
+		Bibliotheque biblio = new Bibliotheque(n, null, n);
 
 		biblio.ajouter(new Roman("Les Misérables", "Victor Hugo", 1200, 49.99));
 		biblio.ajouter(new Revue("Science Aujourd'hui", "Octobre", 2025));

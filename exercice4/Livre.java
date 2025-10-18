@@ -1,11 +1,11 @@
 package exercice4;
 
-public class Livre {
+public class Livre extends Document {
 	private String auteur;
 	private int nbrPages;
 
 	public Livre(String titre, String auteur, int nbrPages) {
-		this.auteur = auteur;
+		super(auteur);
 		this.auteur = auteur;
 		this.nbrPages = nbrPages;
 	}
